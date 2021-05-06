@@ -1,0 +1,77 @@
+*{box-sizing: border-box;margin: 0;padding: 0;} body{font-family: Arial, Helvetica, sans-serif;} html{font-size: 16px;}
+nav{  display: flex;justify-content: space-between;padding: 0 2rem;}
+ .booton{ font-family: Arial, Helvetica, sans-serif; font-size: 0.89rem; border:1px solid rgb(121, 121, 121);text-align: center; padding: 0 0.70rem; text-decoration: none;color:rgb(102, 100, 100);}
+ nav i{color:rgb(158, 156, 156);}
+nav a{margin-top: 0.20rem;font-size: 1.45rem;color:white;text-decoration: underline;font-family: 'Pacifico', cursive; color:tomato}
+
+
+
+
+.full-baner{text-align: center;background-image: url("./banner.jpg");background-position: center top;background-size: cover;padding-bottom: 17rem;}
+
+.benar{padding-top: 9rem;}
+.benar h2{color: teal;font-weight: bold;}
+.benar p{ color:gray;font-size: 1.10rem;padding: 0.50rem;}
+.benar a{ background-color: rgb(238, 101, 77);padding: 0.90rem 3rem;border-radius: 0.20rem;color:white; position: relative; top: 1rem;}
+
+
+.three img{width: 100%; border-radius:100%;}
+.photto img{border-radius: 100%;}
+.tre{padding: 3rem 0;}
+
+.one{text-align: end;color:gray;padding-right: 2rem;line-height: 1.70rem;} .one h3{ color:rgb(9, 216, 216);font-weight: bold;}
+.two{ color:gray;padding-right: 2rem;line-height: 1.70rem;} .two h3{ color:rgb(9, 216, 216);font-weight: bold;}
+
+
+.full-red{background-color: tomato;height: 350px; width: 100%;color:white;text-align: center;}
+
+.full-r{ padding: 4rem 0;width: 100%;margin-top: 0;}
+.full-r h2{font-weight: bold;padding-bottom: 1rem;} .full-r p{font-weight:100px;color:whitesmoke;line-height: 1.40rem;}
+.full-r  h5{padding-top: 1.20rem;}
+
+
+.full-whit{padding: 4rem 0;}
+.first{border: 1px solid rgb(145, 142, 142);border-radius: 0.30rem;padding-bottom: 3.40rem;}
+.first img{width: 100%;border-top-left-radius: 0.30rem; border-top-right-radius: 0.30rem;}
+.first h3{padding: 1rem 2rem;color:rgb(20, 224, 224);font-weight: bold;}
+.first p{color:gray;line-height: 1.50rem;padding: 0 2rem;}
+
+.footer{width: 100%;background-color: rgb(24, 186, 204); padding:2rem;text-align: center;  color:white;}
+.footer h3{padding: 1rem 0;} 
+.footer p{ padding-bottom: 1rem;}
+.footer h6{ padding-top: 1.40rem;  border-top: 1px solid rgb(169, 161, 161); width: 25%;margin: 0 auto;}
+.add-border p i{color:tomato;}
+
+
+
+@media screen and (max-width:800px) {
+    .one {
+        text-align: left;
+    }
+    .photto {
+        text-align: center;
+    }
+    .first{
+        margin: 2.30rem 0;
+    }
+    .full-whith{
+        padding: 1rem 0;
+    }
+    .footer p{
+        padding: 0.70rem 0;
+        line-height: 1.50rem;
+        word-spacing: 0.10rem;
+    }
+    html{
+        font-size: 18px;
+    }
+    .footer h6{
+        width: 100%;
+        line-height: 1.50rem;
+        word-spacing: 0.10rem;
+    }
+    .full-whit{
+        padding: 2rem 0;
+    }
+}
+
